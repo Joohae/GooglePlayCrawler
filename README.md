@@ -10,6 +10,7 @@ A crawler for Google Play. The code is written in Java, write for coding test of
 	-> send 'start' and 'number' filed of post data.
 
 Todo:
+
 6. Identify the flag for 'end of list'. 
    It seems the number items in topselling_* list peg to 600.
 7. Reverse engineering for the Action of 'Next comment page'
@@ -18,6 +19,7 @@ Todo:
 
    
 How to run:
+
 1. before execute the program, you have to make certification file from the site.
 	- connect the site and see the list.
 	- extract certification from web browser.
