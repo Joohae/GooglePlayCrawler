@@ -11,12 +11,12 @@ A crawler for Google Play. The code is written in Java, write for coding test of
 
 Todo:
 
-6. Identify the flag for 'end of list'. 
+1. Identify the flag for 'end of list'. 
    It seems the number items in topselling_* list peg to 600.
-7. Reverse engineering for the Action of 'Next comment page'
+2. Reverse engineering for the Action of 'Next comment page'
 	- the url may https://play.google.com/store/getreviews
 	  and post data are: reviewType 0, pageNum 2, id : package id, reviewSortOrder: 2
-
+3. Refactoring to multithreaded model to improve crawling speed.
    
 How to run:
 
